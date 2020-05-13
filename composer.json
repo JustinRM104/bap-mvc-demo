@@ -14,8 +14,12 @@
   "license": "GPL-3.0-or-later",
   "authors": [
     {
-      "name": "Justin",
+      "name": "Justin Rodriguez Montoya",
       "email": "rmjustin02@gmail.com"
+    },
+    {
+      "name": "Ruben Vuurman",
+      "email": "28624@ma-web.nl"
     }
   ],
   "autoload": {

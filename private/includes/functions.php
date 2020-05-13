@@ -39,11 +39,11 @@ function dbConnect() {
  *
  * @return string
  */
-function site_url( $path = '' ) {
+function site_url($path = '') {
 	return get_config( 'BASE_URL' ) . $path;
 }
 
-function get_config( $name ) {
+function get_config($name) {
 	$config = require __DIR__ . '/config.php';
 	$name = strtoupper( $name );
 

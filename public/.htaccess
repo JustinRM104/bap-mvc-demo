@@ -1,8 +1,3 @@
-# Dit bestand zorgt ervoor dat de website ALLE requests doorstuurt naar de front controller
-# Zo handelen we alles op één plek af.
-#
-# Met uitzondering van bestanden die wel echt bestaan
-
 <IfModule mod_rewrite.c>
 RewriteEngine on
 RewriteCond %{SCRIPT_FILENAME} !-f
